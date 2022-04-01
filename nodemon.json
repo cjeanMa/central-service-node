@@ -1,0 +1,13 @@
+{
+    "watch": ["src/"],
+    "ext": "ts,json",
+    "env":{
+        "NODE_ENV": "dev"
+    },
+    "ignore": ["node_modules", "dist", "reports", ".git"],
+    "exec_map":{
+        "ts": "ts-node"
+    },
+    "verbose": true,
+    "restable": "rs"
+}

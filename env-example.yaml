@@ -1,0 +1,25 @@
+dev:
+  PORT: 4000
+  DB:
+    USER: admin
+    PASSWORD: admin123
+    DATABASE: admin
+    IP: localhost
+    PORT: 27017
+  AWS_ACCESS_KEY_ID: 
+  AWS_SECRET_ACCESS_KEY: 
+  ORIGINAL_ADDRESS: 
+  SENDER_ADDRESS: 
+    
+production:
+  PORT: 80
+  DB:
+    USER: admin
+    PASSWORD: admin123
+    DATABASE: registros
+    IP: localhost
+    PORT: 27017
+  AWS_ACCESS_KEY_ID: 
+  AWS_SECRET_ACCESS_KEY: 
+  ORIGINAL_ADDRESS: 
+  SENDER_ADDRESS: 
